@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
 
 #root {
-  width: 100%;
+width: auto;
+height: 100%;
 }
+
 
 .main {
   display:flex;
@@ -10,6 +12,9 @@
   justify-content:center;
   align-items: center;
   font-family: 'Raleway', sans-serif;
+  width: auto;
+  height: 100%;
+  background-image: url('https://i.pinimg.com/originals/cb/6d/2c/cb6d2c974f71580b964c1f931e8b2aa3.jpg');
 }
 
 .weather {
@@ -32,7 +37,7 @@
   margin: 14px;
 }
 
-.button{
+button{
   width: 35px;
   height: 35px;
 }
